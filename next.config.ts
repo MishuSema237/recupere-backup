@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   },
 
   images: {
-    unoptimized: false,
+    unoptimized: true,
     remotePatterns: [
       { protocol: 'https', hostname: 'i.pravatar.cc' },
       { protocol: 'https', hostname: 'images.unsplash.com' },
